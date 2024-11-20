@@ -20,12 +20,36 @@ footer{
 .table img:hover {
 			transform: scale(1.2);
 		}
-h1{
-	color: #FDB361;
 }
-.table td {
-			background-image: url('https://i.pinimg.com/control2/736x/52/e7/c7/52e7c7b71a14d1a997370438293c106d.jpg');
-			vertical-align: middle;
-			border: 1px solid #ddd;
-			background-color: rgba(255, 255, 255, 0.8); 
+.table th, .table td {
+			text-align: center;
+			padding: 15px;
+		}
+
+		.table th, .table td {
+			background-color: #f8d7e5;
+		}
+
+		.table td strong {
+			font-size: 1.5rem;
+			font-family: 'Pacifico', cursive;
+			color: #D36B6B; 
+		}
+
+		.table td {
+			font-family: 'Arial', sans-serif;
+			font-size: 1rem;
+			color: #555;
+		}
+
+		.table thead {
+			background-color: #f3a7c1; 
+		}
+
+		.table td strong:hover {
+			color: #C65D5D;
+		}
+
+		.table-bordered {
+			border: 2px solid #e0a1c7;
 		}
